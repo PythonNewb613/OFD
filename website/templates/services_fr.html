@@ -1,0 +1,233 @@
+{% extends 'base_fr.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="{% block meta_description %}Welcome to Orleans Family Dentistry!{% endblock %}">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Orleans Dentist - Services</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
+
+  <!-- Core Stylesheet --> 
+  <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preload-content">
+      <div id="dento-load"></div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Top Content -->
+          <div class="col-6 col-md-9 col-lg-8">
+            <div class="top-header-content">
+              <a href="./contact_fr.html" data-toggle="tooltip" data-placement="bottom" title="2894 St.Joseph Blvd, Orléans ON  K1C 1G7"><i class="fa fa-map-marker"></i> <span>2894 St.Joseph Blvd, Orléans ON  K1C 1G7</span></a>
+              <a href="./contact_fr.html" data-toggle="tooltip" data-placement="bottom" title="info@orleansdentist.ca"><i class="fa fa-envelope"></i> <span>info@orleansdentist.ca</span></a>
+            </div>
+          </div>
+          <!-- Top Header Social Info -->
+          <div class="col-6 col-md-3 col-lg-4">
+            <div class="top-header-social-info text-right">
+              <a href="https://www.facebook.com/OrleansFamilyDentistry" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/DentistOrleans" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/orleansfamilydentistry/" data-toggle="tooltip" data-placement="bottom" title="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.pinterest.com/orleansdentist/" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="./services.html" class="btn dento-btn booking-btn">English</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dentoNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="{% url 'home' %}"><img src="{% static 'website/img/core-img/logo2.png' %}" alt=""></a> 
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="./home_fr.html">Accueil</a></li>
+                  <li><a href="./about_fr.html">À Propos</a></li>
+                  <li><a href="./services_fr.html">Services</a></li>
+                  <li><a href="./community_fr.html">Communauté</a></li>
+                  <li><a href="https://nebula.wsimg.com/d6881d60058c9fe9c3b89b84b562cd73?AccessKeyId=B3AA32B6867FCA5640F4&disposition=0&alloworigin=1" 
+                               data-toggle="tooltip" title="Avant votre première visite, SVP, complétez et signez 
+                               les formulaires suivants. Merci!" target="_blank"><span>Formulaires</span></a></li>
+                  <li><a href="./contact_fr.html">Contact</a></li>
+                  <li><a href="./covid_fr.html">COVID-19</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+            <a></a> 
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">Nos Services</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./home_fr.html"><i class="fa fa-home"></i> Accueil</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Services & Prix</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- ***** OFD Pricing Table Area Start ***** -->
+  <section class="dento-pricing-table-area mt-50 section-padding-0-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="dento-price-table table-responsive">
+            <table class="table table-borderless mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">Service</th>
+                  <th scope="col">Stage</th>
+                  <th scope="col">Prix</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Nettoyages & examens complets</th>
+                  <td>Un traitement</td>
+                  <td>$115.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Blanchiement de dents</th>
+                  <td>Un traitement</td>
+                  <td>$100.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Traitement de canal</th>
+                  <td>Un traitement</td>
+                  <td>$99.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Extractions</th>
+                  <td>Une dent</td>
+                  <td>$50.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Orthodontie</th>
+                  <td>Un traitement</td>
+                  <td>$400.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Soins Cosmétiques</th>
+                  <td>Un traitement</td>
+                  <td>Variable</td>
+                </tr>
+                <tr>
+                  <th scope="row">Caries</th>
+                  <td>Une dent</td>
+                  <td>$99.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Implants</th>
+                  <td>Une dent</td>
+                  <td>$170.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ponts</th>
+                  <td>Une dent</td>
+                  <td>$499.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Couronnes</th>
+                  <td>Une dent</td>
+                  <td>$600.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Protecteur buccal sur mesure</th>
+                  <td>Un protecteur</td>
+                  <td>$400.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Appareil de bruxisme</th>
+                  <td>Un appareil</td>
+                  <td>$35.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Prothèses complètes & partielles</th>
+                  <td>Une prothèse</td>
+                  <td>Variable</td>
+                </tr>
+                <tr>
+                  <th scope="row">Stationnement gratuit</th>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">Servics bilingues</th>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** OFD Pricing Table Area End ***** -->
+
+  {% endblock %}

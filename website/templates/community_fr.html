@@ -1,0 +1,271 @@
+{% extends 'base_fr.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="{% block meta_description %}Welcome to Orleans Family Dentistry!{% endblock %}">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Orleans Dentist - Communauté</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
+
+  <!-- Core Stylesheet --> 
+  <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preload-content">
+      <div id="dento-load"></div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Top Content -->
+          <div class="col-6 col-md-9 col-lg-8">
+            <div class="top-header-content">
+              <a href="./contact_fr.html" data-toggle="tooltip" data-placement="bottom" title="2894 St.Joseph Blvd, Orléans ON  K1C 1G7"><i class="fa fa-map-marker"></i> <span>2894 St.Joseph Blvd, Orléans ON  K1C 1G7</span></a>
+              <a href="./contact_fr.html" data-toggle="tooltip" data-placement="bottom" title="info@orleansdentist.ca"><i class="fa fa-envelope"></i> <span>info@orleansdentist.ca</span></a>
+            </div>
+          </div>
+          <!-- Top Header Social Info -->
+          <div class="col-6 col-md-3 col-lg-4">
+            <div class="top-header-social-info text-right">
+              <a href="https://www.facebook.com/OrleansFamilyDentistry" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/DentistOrleans" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/orleansfamilydentistry/" data-toggle="tooltip" data-placement="bottom" title="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.pinterest.com/orleansdentist/" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="./community.html" class="btn dento-btn booking-btn">English</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dentoNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="{% url 'home' %}"><img src="{% static 'website/img/core-img/logo2.png' %}" alt=""></a> 
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="./home_fr.html">Accueil</a></li>
+                  <li><a href="./about_fr.html">À Propos</a></li>
+                  <li><a href="./services_fr.html">Services</a></li>
+                  <li><a href="./community_fr.html">Communauté</a></li>
+                  <li><a href="https://nebula.wsimg.com/d6881d60058c9fe9c3b89b84b562cd73?AccessKeyId=B3AA32B6867FCA5640F4&disposition=0&alloworigin=1" 
+                              data-toggle="tooltip" title="Avant votre première visite, SVP, complétez et signez 
+                              les formulaires suivants. Merci!" target="_blank"><span>Formulaires</span></a></li>
+                  <li><a href="./contact_fr.html">Contact</a></li>
+                  <li><a href="./covid_fr.html">COVID-19</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+            <a></a> 
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Breadcrumb Area Start ***** --> 
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">Communauté</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./home_fr.html"><i class="fa fa-home"></i> Accueil</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Communauté</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+    <!-- OFD Community Intro Start -->
+    <section class="ofd-other-info-area section-padding-0">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-6 col-md-6 col-lg-6">
+            <div class="section-heading text-center">
+              <div class="line"></div>
+              <h6>La clinique Dentisterie Familiale d'Orléans croit fermement au principe 
+                  de redonner à la communauté qui fût si bonne pour elle. Notre équipe est 
+                  impliquée dans plusieurs initiatives et organisations charitables dans 
+                  cette merveilleuse ville. Voici quelques exemples:</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OFD Community Intro End -->
+
+  <!-- *****Blog Area Start ***** -->
+  <section class="dento-blog-area mt-50">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8">
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="https://www.facebook.com/Santas-Parade-of-Lights-1494038254234126/" target="_blank">
+                <img src="{% static 'website/img/bg-img/50.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="https://www.facebook.com/Santas-Parade-of-Lights-1494038254234126/" class="post-title" target="_blank">Parade du Père Noël</a>
+              <p>La clinique Dentisterie Familiale d'Orléans démontrant avec fierté notre bannière 
+                 pour la Parade du Père Noël!</p>
+              <div class="post-meta">
+                <a><i class="icon_clock_alt"></i> 30 Nov 2019</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="https://ottawa.ca/en/living-ottawa/environment/community-environmental-and-beautification-programs/adopt-park-adopt-road" target="_blank">
+                <img src="{% static 'website/img/bg-img/51.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="https://ottawa.ca/en/living-ottawa/environment/community-environmental-and-beautification-programs/adopt-park-adopt-road" class="post-title" target="_blank">Adoptez une route</a>
+              <p>Les programmes municipaux de bénévolat Adoptez un parc et Adoptez une route visent à encourager 
+                 la population à prendre part à l’entretien des parcs et des routes. Ils s’adressent aux groupes 
+                 communautaires et aux résidents de tous les âges qui désirent améliorer la qualité de vie au sein de la communauté.
+                 Notre clinique a adopté la section de St.Joseph Blvd entre Prestone Dr et Belcourt Blvd.</p>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="https://www.ottawafoodbank.ca/event/trick-or-treat-with-the-mayor-3/" target="_blank">
+                <img src="{% static 'website/img/bg-img/52.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="https://www.ottawafoodbank.ca/event/trick-or-treat-with-the-mayor-3/" class="post-title" target="_blank">"Trick or Treat" avec le Maire!</a>
+              <p>Le Maire vous invite à une soirée d’amusement sécuritaire pour l’Halloween à l’appui du 
+                 "Baby Basics Program" de la Banque Alimentaire d'Ottawa!</p>
+              <div class="post-meta">
+                <a><i class="icon_clock_alt"></i> 27 Oct 2019</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="http://www.childrenatrisk.ca/" target="_blank">
+                <img src="{% static 'website/img/bg-img/53.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="http://www.childrenatrisk.ca/" class="post-title" target="_blank">Children at Risk</a>
+              <p>Notre clinique est fière d'être partenaire avec la charité "Children at Risk", qui offrent des
+                 services aux familles avec des enfants diagnostiqués de l'autisme.</p>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="http://www.orleanslionsclub.org/" target="_blank">
+                <img src="{% static 'website/img/bg-img/54.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="http://www.orleanslionsclub.org/" class="post-title" target="_blank">Club des Lions d'Orléans</a>
+              <p>Nous sommes fières d'être commanditaire de la marche marathon du Club des Lions d'Orléans.</p>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a href="https://nebula.wsimg.com/f69e015834d12e843265feab03c88494?AccessKeyId=B3AA32B6867FCA5640F4&disposition=0&alloworigin=1" target="_blank">
+                <img src="{% static 'website/img/bg-img/55.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a href="https://nebula.wsimg.com/f69e015834d12e843265feab03c88494?AccessKeyId=B3AA32B6867FCA5640F4&disposition=0&alloworigin=1" class="post-title" target="_blank">Saviez-vous Que?</a>
+              <p>La clinique Dentisterie Familiale d'Orléans est située sur un site historique! 
+                 Georges Gauthier - un des premiers colons d'Orléans construisit sa désormais célèbre boutique de cuir
+                 sur ce terrain.
+                 Nous sommes fières d'Exposer sur l façade de notre édifice, une des 32 plaques historiques, laquelle nous
+                 fût présentée par la société Franco-Ontarienne du Patrimoine et de l'Histoire d'Orléans (SFOPHO) 
+                 et le "Heart of Orleans BIA".
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *****Blog Area End ***** -->
+
+  {% endblock %}

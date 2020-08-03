@@ -1,0 +1,115 @@
+{% load static %}
+{% block content %}
+{% endblock %}
+
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});"> 
+    <div class="container">
+      <div class="row">
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-footer-widget">
+            <a href="{% url 'home' %}" class="d-block mb-4"><h5 class="widget-title">Orleans Family Dentistry</h5></a>
+            <p>To provide a beautiful & healthy smile while adhering to the highest standard of care in a safe and comfortable environment.</p>
+            <div class="footer-contact">
+              <p><i class="icon_pin"></i>2894 St.Joseph Blvd, Orleans ON  K1C 1G7</p>
+              <p><i class="icon_phone"></i>(613) 830-4444</p>
+              <p><i class="icon_mail"></i>info@orleansdentist.ca</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Opening Hours</h5>
+
+            <!-- Opening Hours -->
+            <ul class="opening-hours">
+              <li><span>Monday</span> <span>10:00 am - 8:00 pm</span></li>
+              <li><span>Tuesday</span> <span>7:30 am - 8:30 pm</span></li>
+              <li><span>Wednesday</span> <span>7:30 am - 4:30 pm</span></li>
+              <li><span>Thursday</span> <span>7:30 am - 4:30 pm</span></li>
+              <li><span>Friday</span> <span>7:30 am - 12:00 pm</span></li>
+              <li><span>Sat-Sun</span> <span>Closed</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Quick Links</h5>
+
+            <!-- Quick Links Nav -->
+            <nav>
+              <ul class="quick-links">
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./community.html">Community</a></li>
+                <li><a href="https://nebula.wsimg.com/3f468f932c88954521915369d9e21fa2?AccessKeyId=B3AA32B6867FCA5640F4&disposition=0&alloworigin=1" 
+                  data-toggle="tooltip" title="Prior to your first visit to the clinic, please print, complete 
+                  and sign the following forms. Thank you!" target="_blank"><span>Patient Forms</span></a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./covid.html">COVID-19</a></li>
+                <li><a href="#">Legal</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Thank you!</h5>
+
+            <p>
+            We appreciate your business and are dedicated to building long and satisfying relationships with our patients.
+            </p>
+            <div></div>
+
+            <!-- Social Info -->
+            <div class="footer-social-info">
+              <a href="https://www.facebook.com/OrleansFamilyDentistry" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/DentistOrleans" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/orleansfamilydentistry/" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.pinterest.com/orleansdentist/" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copywrite Area -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="copywrite-content">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* --> 
+  <!-- jQuery js -->
+  <script src="{% static 'website/js/jquery.min.js' %}"></script>
+  <!-- Popper js -->
+  <script src="{% static 'website/js/popper.min.js' %}"></script>
+  <!-- Bootstrap js -->
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+  <!-- All js -->
+  <script src="{% static 'website/js/dento.bundle.js' %}"></script>
+  <!-- Active js -->
+  <script src="{% static 'website/js/default-assets/active.js' %}"></script>
+
+</body>
+
+</html>

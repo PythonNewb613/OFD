@@ -1,0 +1,380 @@
+{% extends 'base_fr.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="{% block meta_description %}Welcome to Orleans Family Dentistry!{% endblock %}">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Orleans Dentist - À Propos</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
+
+  <!-- Core Stylesheet --> 
+  <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preload-content">
+      <div id="dento-load"></div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Top Content -->
+          <div class="col-6 col-md-9 col-lg-8">
+            <div class="top-header-content">
+              <a href="./contact_fr.html" data-toggle="tooltip" data-placement="bottom" title="2894 St.Joseph Blvd, Orleans ON  K1C 1G7"><i class="fa fa-map-marker"></i> <span>2894 St.Joseph Blvd, Orleans ON  K1C 1G7</span></a>
+              <a href="./contact_fr.html" data-toggle="tooltip" data-placement="bottom" title="info@orleansdentist.ca"><i class="fa fa-envelope"></i> <span>info@orleansdentist.ca</span></a>
+            </div>
+          </div>
+          <!-- Top Header Social Info -->
+          <div class="col-6 col-md-3 col-lg-4">
+            <div class="top-header-social-info text-right">
+              <a href="https://www.facebook.com/OrleansFamilyDentistry" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/DentistOrleans" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/orleansfamilydentistry/" data-toggle="tooltip" data-placement="bottom" title="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.pinterest.com/orleansdentist/" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="./about.html" class="btn dento-btn booking-btn">English</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dentoNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="./home_fr.html"><img src="{% static 'website/img/core-img/logo2.png' %}" alt=""></a> 
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="./home_fr.html">Accueil</a></li>
+                  <li><a href="./about_fr.html">À Propos</a></li>
+                  <li><a href="./services_fr.html">Services</a></li>
+                  <li><a href="./community_fr.html">Communauté</a></li>
+                  <li><a href="https://nebula.wsimg.com/d6881d60058c9fe9c3b89b84b562cd73?AccessKeyId=B3AA32B6867FCA5640F4&disposition=0&alloworigin=1" 
+                               data-toggle="tooltip" title="Avant votre première visite, SVP, complétez et signez 
+                               les formulaires suivants. Merci!" target="_blank"><span>Formulaires</span></a></li>
+                  <li><a href="./contact_fr.html">Contact</a></li>
+                  <li><a href="./covid_fr.html">COVID-19</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+            <a></a> 
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Breadcrumb Area Start ***** --> 
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %};)">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">À Propos</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./home_fr.html"><i class="fa fa-home"></i> Accueil</a></li>
+              <li class="breadcrumb-item active" aria-current="page">À Propos</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- ****** About Us Area Start ******* -->
+  <section class="dento-about-us-area mt-70">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- About Us Thumbnail -->
+        <div class="col-12 col-md-6">
+          <div class="about-us-thumbnail mb-50">
+            <img src="{% static 'website/img/bg-img/99.jpg' %}" alt=""> 
+          </div>
+        </div>
+        <!-- About Content -->
+        <div class="col-12 col-md-6">
+          <div class="about-us-content mb-50">
+            <p>Le but de la clinique “Dentisterie Familiale d'Orléans” est de vous procurer des soins personnalisés, 
+               de haute-qualités selon vos besoins et de façon préventive.  Nous avons développé une pratique dans 
+               laquelle nous croyons, au point d'y traiter les membres de notre famille.</p>
+            <p>Nous travaillons ensemble afin d'offrir à nos clients tous les services dentaires requis à toutes les 
+               étapes de leur vie.  Notre équipe croit en la mise en oeuvre de services dentaires complets dans une 
+               atmosphère amicale et détendue.  Durant les traitements, nous insistons sur l'importance de maintenir une 
+               bonne santé buccale dans le but d'arriver à un résultat optimal d'après les besoins de chacun. </p>
+            <p>Parfaitement bilingues, les Dres Bhatia et Cadieux sont toutes les deux certifiées par le Collège Royal des 
+               Chirurgiens Dentistes du Canada et elles pratiquent depuis plus de 15 ans. Elles sont membres de la Société 
+               Dentaire d'Ottawa, de l'Association Dentaire de l'Ontario et de “International Association for Orthodontics”.</p>
+            <p>L'éducation continue est également une grande priorité pour les dentistes, ce qui les amènent à continuellement 
+               suivre des cours et participer à des séminaires concernant les plus récentes techniques et procédures en 
+               dentisterie; de façon à être en mesure de traiter leurs clients selon les plus hauts standards de soins 
+               professionnels.</p>
+
+            <!-- Single Skills Area -->
+            <div class="single-skills-area mt-30">
+              <h6>EDentistes Expérimentées</h6>
+              <div id="bar1" class="barfiller">
+                <span class="tip"></span>
+                <span class="fill" data-percentage="100"></span>
+              </div>
+            </div>
+
+            <!-- Single Skills Area -->
+            <div class="single-skills-area mt-30">
+              <h6>Équipement Moderne</h6>
+              <div id="bar2" class="barfiller">
+                <span class="tip"></span>
+                <span class="fill" data-percentage="100"></span>
+              </div>
+            </div>
+
+            <!-- Single Skills Area -->
+            <div class="single-skills-area mt-30">
+              <h6>Personnel Accueillant & Sympathique</h6>
+              <div id="bar3" class="barfiller">
+                <span class="tip"></span>
+                <span class="fill" data-percentage="100"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****** About Us Area End ****** -->
+
+  <div class="container">
+    <div class="dento-border clearfix"></div>
+  </div>
+
+  <!-- Cool Facts Area Start -->
+  <section class="dento-cta-area">
+    <div class="container">
+      <div class="row">
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_genius"></i>
+            <h2><span class="counter">30</span>+</h2>
+            <h5>Années d'expériences</h5>
+          </div>
+        </div>
+
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_heart_alt"></i>
+            <h2><span class="counter">1,000</span>+</h2>
+            <h5>Patients satisfaits & contents</h5>
+          </div>
+        </div>
+
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_book_alt"></i>
+            <h2><span class="counter">120</span></h2>
+            <h5>Certificats</h5>
+          </div>
+        </div>
+
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_id"></i>
+            <h2><span class="counter">8</span></h2>
+            <h5>Personnel</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Cool Facts Area End -->
+
+    <!-- ***** OFD Staff Area-1 Start ***** -->
+    <section class="dentist-area section-padding-0-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6">
+            <div class="section-heading text-center">
+              <h3>Nos Dentistes</h3>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6">
+            <div class="section-heading text-center">
+              <h3>Hygiénistes Dentaires</h3>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Single Dentist Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-dentist-area mb-100">
+              <img src="{% static 'website/img/bg-img/98.jpg' %}" alt=""> 
+              <div class="dentist-content">
+                <div class="dentist-info bg-gradient-overlay">
+                  <h5>Dre. Sunita Bhatia</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Dentist Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-dentist-area mb-100">
+              <img src="{% static 'website/img/bg-img/97.jpg' %}" alt=""> 
+              <div class="dentist-content">
+                <div class="dentist-info bg-gradient-overlay">
+                  <h5>Dre. Maryse Cadieux</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Dental Hygienist Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-dentist-area mb-100">
+              <img src="{% static 'website/img/bg-img/101.jpg' %}" alt=""> 
+              <div class="dentist-content">
+                <div class="dentist-info bg-gradient-overlay">
+                  <h5>Gisèle</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Dental Hygienist Area -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-dentist-area mb-100">
+              <img src="{% static 'website/img/bg-img/102.jpg' %}" alt=""> 
+              <div class="dentist-content">
+                <div class="dentist-info bg-gradient-overlay">
+                  <h5>Michelle</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** OFD Dentist Area-1 End ***** -->
+
+        <!-- ***** OFD Staff Area-2 Start ***** -->
+        <section class="dentist-area section-padding-0-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-6">
+                <div class="section-heading text-center">
+                  <h3>Assistantes Dentaires</h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6">
+                <div class="section-heading text-center">
+                  <h3>Assistantes Administratives</h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Single Dental Assistant Area -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-dentist-area mb-100">
+                  <img src="{% static 'website/img/bg-img/103.jpg' %}" alt=""> 
+                  <div class="dentist-content">
+                    <div class="dentist-info bg-gradient-overlay">
+                      <h5>Naira</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Dental Assistant Area -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-dentist-area mb-100">
+                  <img src="{% static 'website/img/bg-img/104.jpg' %}" alt=""> 
+                  <div class="dentist-content">
+                    <div class="dentist-info bg-gradient-overlay">
+                      <h5>Anny</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Dental Administrator Area -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-dentist-area mb-100">
+                  <img src="{% static 'website/img/bg-img/105.jpg' %}" alt=""> 
+                  <div class="dentist-content">
+                    <div class="dentist-info bg-gradient-overlay">
+                      <h5>Chantal</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Dental Administrator Area -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-dentist-area mb-100">
+                  <img src="{% static 'website/img/bg-img/106.jpg' %}" alt=""> 
+                  <div class="dentist-content">
+                    <div class="dentist-info bg-gradient-overlay">
+                      <h5>Véronic</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ***** OFD Dentist Area-2 End ***** -->
+
+
+
+
+  {% endblock %}
